@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#inputBox{
+    border-radius: 5px; 
+    border: 1px solid black;
+}
+
+#inputBox:focus{
+    border: 1.5px solid red;
+    outline: none;
+}
+.do{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    color: red;
+    transition: .5s;
+    cursor: pointer;
+}
+.cut{
+    opacity: 50%;
+    text-decoration: line-through;
+}
+@media screen and (min-width: 678px) {
+    .do{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 900px) {
+    .do{
+        width: 40%;
+    }
+}
